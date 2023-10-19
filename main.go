@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+
+	"github.com/f3rcho/gofromscratch/exercise"
 )
 
 func main() {
@@ -21,12 +22,16 @@ func main() {
 	// 	println("Ahother SO")
 	// }
 
-	switch os := runtime.GOOS; os {
-	case "linux":
-		fmt.Println("This is linux")
-	case "windows":
-		fmt.Println("This is windows")
-	default:
-		fmt.Printf("%s \n", os)
-	}
+	// switch os := runtime.GOOS; os {
+	// case "linux":
+	// 	fmt.Println("This is linux")
+	// case "windows":
+	// 	fmt.Println("This is windows")
+	// default:
+	// 	fmt.Printf("%s \n", os)
+	// }
+	num, s := exercise.StringConverter("101")
+
+	fmt.Println(num)
+	fmt.Println(s)
 }
