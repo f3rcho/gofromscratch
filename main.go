@@ -7,4 +7,8 @@ import (
 func main() {
 	variables.ShowIntegers()
 	variables.RestVariables()
+	status, text := variables.TextConverter(155)
+
+	println(status)
+	println(text)
 }
