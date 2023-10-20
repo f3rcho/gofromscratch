@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/exercise"
+	"github.com/f3rcho/gofromscratch/files"
 )
 
 func main() {
@@ -37,6 +37,7 @@ func main() {
 		keyword.IngressNumbers()
 	*/
 
-	exercise.MultiplyTable()
+	// fmt.Println(exercise.MultiplyTable())
+	files.CreateArchive()
 
 }

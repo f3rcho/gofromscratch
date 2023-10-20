@@ -7,8 +7,9 @@ import (
 	"strconv"
 )
 
-func MultiplyTable() {
+func MultiplyTable() string {
 	var num int
+	var textTable string
 	var err error
 	scanner := bufio.NewScanner(os.Stdin)
 
@@ -25,7 +26,7 @@ func MultiplyTable() {
 	}
 
 	for i := 1; i < 10; i++ {
-		// fmt.Println(num, "x", i, "=", num*i)
-		fmt.Printf("%d x %d = %d\n", num, i, num*i)
+		textTable += fmt.Sprintf("%d x %d = %d\n", num, i, num*i)
 	}
+	return textTable
 }
