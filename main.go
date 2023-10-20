@@ -1,37 +1,42 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/keyword"
+	"github.com/f3rcho/gofromscratch/loops"
 )
 
 func main() {
 
-	// os := runtime.GOOS
+	/*
+			os := runtime.GOOS
 
-	// if os == "linux" {
-	// 	println("Linux")
-	// } else {
-	// 	fmt.Println("Ahother SO")
-	// }
+			if os == "linux" {
+				println("Linux")
+			} else {
+				fmt.Println("Ahother SO")
+			}
 
-	// if os := runtime.GOOS; os == "darwin" {
-	// 	println("darwin")
-	// } else {
-	// 	println("Ahother SO")
-	// }
+			if os := runtime.GOOS; os == "darwin" {
+				println("darwin")
+			} else {
+				println("Ahother SO")
+			}
 
-	// switch os := runtime.GOOS; os {
-	// case "linux":
-	// 	fmt.Println("This is linux")
-	// case "windows":
-	// 	fmt.Println("This is windows")
-	// default:
-	// 	fmt.Printf("%s \n", os)
-	// }
-	// num, s := exercise.StringConverter("101")
+			switch os := runtime.GOOS; os {
+			case "linux":
+				fmt.Println("This is linux")
+			case "windows":
+				fmt.Println("This is windows")
+			default:
+				fmt.Printf("%s \n", os)
+			}
+			num, s := exercise.StringConverter("101")
 
-	// fmt.Println(num)
-	// fmt.Println(s)
+			fmt.Println(num)
+			fmt.Println(s)
 
-	keyword.IngressNumbers()
+		keyword.IngressNumbers()
+	*/
+
+	loops.Looping()
+
 }
