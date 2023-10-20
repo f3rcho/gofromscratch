@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/f3rcho/gofromscratch/exercise"
+	"github.com/f3rcho/gofromscratch/keyword"
 )
 
 func main() {
@@ -30,8 +28,10 @@ func main() {
 	// default:
 	// 	fmt.Printf("%s \n", os)
 	// }
-	num, s := exercise.StringConverter("101")
+	// num, s := exercise.StringConverter("101")
 
-	fmt.Println(num)
-	fmt.Println(s)
+	// fmt.Println(num)
+	// fmt.Println(s)
+
+	keyword.IngressNumbers()
 }
