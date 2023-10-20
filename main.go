@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/loops"
+	"github.com/f3rcho/gofromscratch/exercise"
 )
 
 func main() {
@@ -37,6 +37,6 @@ func main() {
 		keyword.IngressNumbers()
 	*/
 
-	loops.Looping()
+	exercise.MultiplyTable()
 
 }
