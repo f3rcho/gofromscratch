@@ -1,6 +1,7 @@
 package files
 
 import (
+	"bufio"
 	"fmt"
 	"os"
 
@@ -41,4 +42,18 @@ func Append(fileName, text string) bool {
 	}
 	arch.Close()
 	return true
+}
+
+func ReadArchive() {
+	arch, err := os.Open(fileName)
+	if err != nil {
+		fmt.Println("Error opening archive" + err.Error())
+		return
+	}
+	scanner := bufio.NewScanner(arch)
+
+	for scanner.Scan() {
+		registry := scanner.Text()
+		fmt.Println("> " + registry + "\n")
+	}
 }

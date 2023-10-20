@@ -38,6 +38,7 @@ func main() {
 	*/
 
 	// fmt.Println(exercise.MultiplyTable())
-	files.CreateArchive()
+	// files.CreateArchive()
+	files.ReadArchive()
 
 }
