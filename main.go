@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/maps"
+	"github.com/f3rcho/gofromscratch/users"
 )
 
 func main() {
@@ -41,6 +41,8 @@ func main() {
 	// files.CreateArchive()
 	// files.ReadArchive()
 
-	maps.ShowMaps()
+	// maps.ShowMaps()
+
+	users.HighUser()
 
 }
