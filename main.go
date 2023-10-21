@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/functions"
+	"github.com/f3rcho/gofromscratch/arrays_slices"
 )
 
 func main() {
@@ -41,6 +41,6 @@ func main() {
 	// files.CreateArchive()
 	// files.ReadArchive()
 
-	functions.Exponential(2)
+	arrays_slices.ShowArray()
 
 }
