@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/arrays_slices"
+	"github.com/f3rcho/gofromscratch/maps"
 )
 
 func main() {
@@ -41,6 +41,6 @@ func main() {
 	// files.CreateArchive()
 	// files.ReadArchive()
 
-	arrays_slices.Capacity()
+	maps.ShowMaps()
 
 }
