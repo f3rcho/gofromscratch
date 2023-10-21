@@ -41,6 +41,6 @@ func main() {
 	// files.CreateArchive()
 	// files.ReadArchive()
 
-	arrays_slices.ShowArray()
+	arrays_slices.Capacity()
 
 }
