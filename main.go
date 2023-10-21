@@ -41,6 +41,6 @@ func main() {
 	// files.CreateArchive()
 	// files.ReadArchive()
 
-	functions.CallClosure()
+	functions.Exponential(2)
 
 }
