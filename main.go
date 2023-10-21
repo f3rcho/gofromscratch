@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/files"
+	"github.com/f3rcho/gofromscratch/functions"
 )
 
 func main() {
@@ -39,6 +39,8 @@ func main() {
 
 	// fmt.Println(exercise.MultiplyTable())
 	// files.CreateArchive()
-	files.ReadArchive()
+	// files.ReadArchive()
+
+	functions.CallClosure()
 
 }
