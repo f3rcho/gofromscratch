@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/f3rcho/gofromscratch/exercise"
-	"github.com/f3rcho/gofromscratch/models"
+	d "github.com/f3rcho/gofromscratch/defer_panic"
 )
 
 func main() {
@@ -46,10 +45,13 @@ func main() {
 
 	// users.HighUser()
 
-	Pedro := new(models.Man)
-	e.HumanBreath(Pedro)
+	// Pedro := new(models.Man)
+	// e.HumanBreath(Pedro)
 
-	Maria := new(models.Woman)
-	e.HumanBreath(Maria)
+	// Maria := new(models.Woman)
+	// e.HumanBreath(Maria)
 
+	// d.WatchDefer()
+	// d.ShowPanic()
+	d.ShowRecovery()
 }
