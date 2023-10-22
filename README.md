@@ -14,3 +14,8 @@ abort execution with message
 
 # recover
 always use with defer. Used to log panics
+
+# goroutines
+Asynchronous
+just add "go" before the routine
+`go d.MySlowName("Fernando Cordero")`

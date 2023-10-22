@@ -1,7 +1,9 @@
 package main
 
 import (
-	d "github.com/f3rcho/gofromscratch/defer_panic"
+	"fmt"
+
+	d "github.com/f3rcho/gofromscratch/goroutines"
 )
 
 func main() {
@@ -53,5 +55,11 @@ func main() {
 
 	// d.WatchDefer()
 	// d.ShowPanic()
-	d.ShowRecovery()
+	// d.ShowRecovery()
+
+	go d.MySlowName("Fernando Cordero")
+
+	fmt.Println("Please enter a char")
+	var x string
+	fmt.Scanln(&x)
 }
