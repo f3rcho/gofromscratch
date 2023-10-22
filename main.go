@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/webserver"
+	"github.com/f3rcho/gofromscratch/middleware"
 )
 
 func main() {
@@ -70,5 +70,5 @@ func main() {
 	// 	// <-channelN
 	// }()
 
-	webserver.MyWebServer()
+	middleware.MyMiddleware()
 }
