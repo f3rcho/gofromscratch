@@ -65,5 +65,10 @@ func main() {
 	var s string
 	fmt.Scanf(s)
 
-	<-channel1
+	defer func() {
+		<-channel1
+		// <-channel2
+		// ...
+		// <-channelN
+	}()
 }
