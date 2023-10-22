@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/f3rcho/gofromscratch/users"
+	e "github.com/f3rcho/gofromscratch/exercise"
+	"github.com/f3rcho/gofromscratch/models"
 )
 
 func main() {
@@ -43,6 +44,12 @@ func main() {
 
 	// maps.ShowMaps()
 
-	users.HighUser()
+	// users.HighUser()
+
+	Pedro := new(models.Man)
+	e.HumanBreath(Pedro)
+
+	Maria := new(models.Woman)
+	e.HumanBreath(Maria)
 
 }
