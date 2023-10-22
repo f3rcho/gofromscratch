@@ -57,9 +57,13 @@ func main() {
 	// d.ShowPanic()
 	// d.ShowRecovery()
 
-	go d.MySlowName("Fernando Cordero")
+	channel1 := make(chan bool)
+	go d.MySlowName("Fernando Cordero", channel1)
 
 	fmt.Println("Please enter a char")
-	var x string
-	fmt.Scanln(&x)
+	// this is like await til gorouting ends
+	var s string
+	fmt.Scanf(s)
+
+	<-channel1
 }
