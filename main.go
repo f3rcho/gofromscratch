@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	d "github.com/f3rcho/gofromscratch/goroutines"
+	"github.com/f3rcho/gofromscratch/webserver"
 )
 
 func main() {
@@ -57,18 +55,20 @@ func main() {
 	// d.ShowPanic()
 	// d.ShowRecovery()
 
-	channel1 := make(chan bool)
-	go d.MySlowName("Fernando Cordero", channel1)
+	// channel1 := make(chan bool)
+	// go d.MySlowName("Fernando Cordero", channel1)
 
-	fmt.Println("Please enter a char")
-	// this is like await til gorouting ends
-	var s string
-	fmt.Scanf(s)
+	// fmt.Println("Please enter a char")
+	// // this is like await til gorouting ends
+	// var s string
+	// fmt.Scanf(s)
 
-	defer func() {
-		<-channel1
-		// <-channel2
-		// ...
-		// <-channelN
-	}()
+	// defer func() {
+	// 	<-channel1
+	// 	// <-channel2
+	// 	// ...
+	// 	// <-channelN
+	// }()
+
+	webserver.MyWebServer()
 }
